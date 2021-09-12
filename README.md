@@ -2,7 +2,7 @@
 
 Video link:  https://youtu.be/aOmsPGH1wjQ
 
-<a href="https://i.ibb.co/1ZRwVXL/dashboard.png" title="TeacherStats" alt="screenshot"></a>
+<img src="https://i.ibb.co/1ZRwVXL/dashboard.png" title="TeacherStats" alt="screenshot"></a>
 
 ## Installation instructions
 In this specific order ... in one terminal, from project folder:
