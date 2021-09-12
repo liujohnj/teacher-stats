@@ -1,0 +1,13 @@
+.slider {
+    width: 300px;
+    margin: 30px;
+}
+
+.sliderLine {
+    display: flex;
+    align-items: center;
+}
+
+.sliderLabel {
+    margin: 0px 20px;
+}

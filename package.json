@@ -1,0 +1,36 @@
+{
+  "name": "teacher-04",
+  "version": "1.0.0",
+  "description": "teacher-04",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore data/ --ignore front-end/ index.js",
+    "json:server": "json-server --watch data/db.json --port 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liujohnj/teacher-04.git"
+  },
+  "author": "John Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liujohnj/teacher-04/issues"
+  },
+  "homepage": "https://github.com/liujohnj/teacher-04#readme",
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

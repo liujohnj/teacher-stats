@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    color: #222230;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 100;
+    line-height: 1.43;
+    /*background-color: #c6e1f2;*/
+    background-color: #ebf4fa
+}
+
+/*==================================================================
+/  Top navigation bar
+/===================================================================
+*/
+
+.topNav {
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: #FFFFFF;
+    position: sticky;
+    z-index: 999;
+}
+
+.topNavLinks {
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: slategray;
+    align-items: center;
+}
+
+.firstLink {
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    color: slategray
+}
+
+.schoolIcon {
+    margin-right: 10px;
+}
+
+.lastLink {
+    display: flex;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+
+/*==================================================================
+/  Container below top navigation bar
+/===================================================================
+*/
+
+.belowTopNav {
+    display: flex;
+    width: 100%;
+}
+
+.welcomeMessage {
+    display: flex;
+    align-items: center;
+}
+
+.syncButton {
+    margin-left: 15px;
+}
+
+/*==================================================================
+/  Left navigation bar
+/===================================================================
+*/
+
+.leftNav {
+    margin: 0;
+    flex: 1;
+    /* height: calc(100vh - 50px); */
+    height: 850px;
+    position: sticky;
+    background-color: lightblue;
+    top: 50px;
+}
+
+
+/*==================================================================
+/  Main container right of left nav bar
+/===================================================================
+*/
+
+.mainContainer {
+    flex: 4;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* height: calc(100vh - 50px); */
+    /*background-color: #c6e1f2;*/
+    background-color: #ebf4fa
+}
+
+
+/*==================================================================
+/  General
+/===================================================================
+*/
+
+.cardTitle {
+    margin: 0;
+}
+
+.pageTitle {
+    margin: 0;
+}
+
+/*==================================================================
+/  Top cards row
+/===================================================================
+*/
+
+.topCardsRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topCardsRowCard {
+    flex: 1;
+    margin: 5px 20px;
+    background-color: white;
+    height: 120px;
+    padding: 10px;
+    box-shadow: 6px 6px 3px #e1f4ff /* #a9d2eb; */
+}
+
+.syncAvgButton {
+    margin-left: 192px;
+
+}
+/*==================================================================
+/  Center row
+/===================================================================
+*/
+
+.centerRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.centerRowLeft {
+    flex: 2;
+    margin: 20px 20px;
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid gray;    
+}
+
+.centerRowRight {
+    flex: 1;
+    margin: 20px 20px;
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid gray;    
+}
+
+
+/*==================================================================
+/  Bottom cards row
+/===================================================================
+*/
+
+.bottomCardsRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottomCardsRowCard {
+    flex: 1;
+    margin: 5px 20px;
+    background-color: white;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid gray;    
+}
+
+/*==================================================================
+/  Score Page
+/===================================================================
+*/
+.scorePanels {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.controlsPanel {
+    flex: 2;
+    background-color: white;
+    box-shadow: 8px 8px 4px  #a9d2eb;
+    border-radius: 5px;
+    height: 470px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.scoreChartPanel {
+    flex: 2;
+    background-color: white;
+    box-shadow: 10px 10px 5px #a9d2eb;
+    height: 470px;
+    width: max-content;
+    padding: 5px;
+    margin: 10px;
+}
+
+.chart {
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.largeCardsTitle {
+    margin-left: 10px;
+    color: darkblue;
+    /* background-color: bisque; */
+}
+
+.weightsLabel {
+    margin-left: 380px;
+    color: slategray;
+    /* background-color: aqua; */
+}
+
+/*==================================================================
+/  Controls Group
+/===================================================================
+*/
+
+.controlGroup {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /* background-color: green; */
+}
+
+.controlLabel {
+    width: 155px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-color: blueviolet; */
+}
+
+.slider {
+    width: 200px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    /* background-color: red; */
+}
+
+.controlValue {
+    width: 25px;
+    /* background-color: orange; */
+}
+
+.numberInputFlexbox {
+    margin-left: auto;
+    margin-right: 30px;
+    /* background-color: pink; */
+}
+
+.numberInput {
+    width: 50px;
+    margin-left: 25px;
+    /* background-color: blue; */
+}
+
+.totalsGroup {
+    display: flex;
+    margin-top: 10px;
+    /* background-color: yellow; */
+}
+
+.totalsLabel {
+    margin-left: 172px;
+    /* background-color: purple; */
+}
+
+.totalsNum {
+    margin-left: auto;
+    margin-right: 55px;
+    /* background-color: fuchsia; */
+}
+
+.controlPanelButtons {
+    height: 70px;
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    align-items: end;
+}
+
+
+/*==================================================================
+/  Authentication
+/===================================================================
+*/
+
+.avatar {
+    
+}
+
+.signInTitle {
+
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.signInTextField {
+    margin: 10px;
+}
+.signInButton {
+    margin: 20px;
+}
+/*
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+*/
